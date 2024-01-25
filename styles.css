@@ -1,0 +1,105 @@
+.flower {
+    position: relative;
+}
+
+.flower-head-container {
+    position: absolute;
+    transform: rotate(45deg);
+    left: 95px;
+    top: -115px
+}
+.flower-head{
+    position: absolute;
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 175px;
+    left: 275px;
+    z-index: 2;
+}
+.flower-head-top {
+    position: absolute;
+    background-color: yellow;
+    width: 70px;
+    height: 100px;
+
+    top: 115px;
+    left: 292px;
+    border-radius: 50%;
+}
+.flower-head-right {
+    position: absolute;
+    background-color: yellow;
+    width: 70px;
+    height: 100px;
+    rotate: 90deg;
+    top: 175px;
+    left: 338px;
+    border-radius: 50%;
+}
+.flower-head-left {
+    position: absolute;
+    background-color: yellow;
+    width: 70px;
+    height: 100px;
+    rotate: 90deg;
+    top: 175px;
+    left: 238px;
+    border-radius: 50%;
+}
+.flower-head-bottom {
+    position: absolute;
+    background-color: yellow;
+    width: 70px;
+    height: 100px;
+
+    top: 225px;
+    left: 290px;
+    border-radius: 50%;
+}
+
+
+.flower-stem {
+    position: absolute;
+
+    background-color: green;
+    width: 20px;
+    height: 150px;
+
+    left: 155px;
+    top: 280px;
+
+    z-index: -1;
+}
+
+.dirt-base {
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    background-color: tan;
+
+    left: 150px;
+    top: 415px;
+}
+.pot-top {
+    position: absolute;
+    width: 35px;
+    height: 15px;
+    background-color: plum;
+
+    left: 147.5px;
+    top: 425px;
+}
+
+.pot-bottom{
+    position: absolute;
+    width: 25px;    /* Adjust the width of the trapezoid */
+    height: 0;
+    border-top: 30px solid palevioletred;  /* Adjust the color and size of the bottom side */
+    border-left: 5px solid transparent; /* Adjust the size of the left side */
+    border-right: 5px solid transparent;
+
+    left: 147.5px;
+    top: 435px;
+}
